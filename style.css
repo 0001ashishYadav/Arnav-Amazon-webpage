@@ -1,0 +1,368 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif1;
+
+
+}
+.back:hover{
+   
+    background-color: #495563;
+}
+.a2:hover{
+   
+    color: rgb(218, 214, 214, );
+    
+}
+.a:hover{
+    color: orangered;
+}
+.list:hover{
+    border: 1px solid white;
+}
+.h5:hover{
+    border: 1px solid white;
+}
+.svg2:hover{
+    border: 1px solid white;
+}
+.account:hover{
+    border: 1px solid white;
+}
+.india:hover{
+    border: 1px solid white;
+
+}
+
+.img1:hover{
+    border: 1px solid white;
+}
+
+.fristicon:hover{
+    border: 1px solid white;
+}
+.img1{
+    padding: 10px;
+   
+}
+.one-contner{
+    background-color: black
+    ;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+  
+    
+}
+.fristicon{
+  
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+}
+.input input{
+    height: 40px;
+    width: 420px;
+    text-decoration: none;
+    outline: none;
+    margin-left: -4px;
+}
+.svg{
+    display: flex;
+   
+   outline: none;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   margin-left: -3px;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   
+    background-color: rgb(255, 191, 0);
+    
+    height: 40px;
+    width: 50px;
+}
+.two-contner{
+   background-color: rgb(0, 0, 29); 
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.list{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    justify-content: space-between;
+  
+}
+.box1{
+    background-color: white;
+    height: 450px;
+    width: 330px;
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -282px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+.box2{
+    
+        background-color: white;
+        height: 450px;
+        width: 330px;
+        
+        position: absolute;
+        margin-left: 380px;
+        margin-top: -282px;
+}
+.box3{
+          margin-top: -282px; background-color: white;
+        height: 450px;
+        width: 330px;
+        
+        position: absolute;
+        margin-left: 740px;
+ 
+}
+.box4{
+   background-color: white;
+        height: 180px;
+        width: 250px;
+        
+        position: absolute;
+        margin-left: 1080px;
+        margin-top: -280px;
+      
+}
+
+.flex{
+    width: 1300px;
+   margin-top: 200px;
+ 
+   margin-left: 20px;
+    height: 250px;
+    background-color: white;
+}
+.imgflex{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.flex2{
+    width: 1300px;
+    margin-top: 20px;
+  
+    margin-left: 20px;
+     height: 270px;
+     background-color: white;
+}
+.svg2{
+    animation-name: svg;
+    animation-iteration-count: infinite;
+   animation-delay: 2s;
+   animation-duration: 2s;
+   transition: all 1s;
+}
+    @keyframes svg{
+        from{
+            transform: rotate(-20deg);
+        } to{
+            transform: rotate(10deg);
+        }
+    }
+.imgflex2{
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    padding-top: 20px;
+    overflow-x: scroll;
+    padding-left: 700px;
+}
+.imgflex6{
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    padding-top: 20px;
+    overflow-x: scroll;
+    padding-left: 700px;
+  
+}
+.fex5{
+    background-color: white;
+    width: 1300px;
+    margin-top: 500px;
+  
+    margin-left: 20px;
+     height: 270px;
+     
+
+}
+.fristbox{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    
+    position: absolute;
+    margin-left: 20px;
+}
+.sec2box{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    
+    position: absolute;
+    margin-left: 480px;
+}
+.threebox{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    
+    position: absolute;
+    margin-left: 920px;
+}
+.grid4{
+    margin-top: 20px;
+
+  
+    margin-left: 20px;
+     height: 810px;
+     background-color: white; width: 1300px;
+   
+}
+.flex7{
+    display: flex
+    ;
+    align-items: center;
+   
+   
+}
+.card1{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+
+.card2{
+    margin-top: 40px;
+    margin-left: 20px}
+    .card3{
+        margin-top: 40px;
+        margin-left: 20px
+    }
+    .card4{
+        margin-top: 40px;
+        margin-left: 20px
+    }
+    .card5{
+        margin-top: 40px;
+        margin-left: 20px
+    }
+    .card6{
+        margin-top: 40px;
+        margin-left: 20px
+    }
+    .back{
+       background-color: #151f2c;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        background-color: #232f3e;
+        height: 400px;
+        width: 100%;
+        display: flex;
+       
+       
+       
+        color: white;
+    }
+    .text-one{
+        top: 3100px;
+        left: 150px;
+        position: absolute;
+    }
+    .text-two{
+        top: 3100px;
+        left: 400px;
+        position: absolute;
+    }
+    .text-three{
+        top: 3100px;
+        left: 600px;
+        position: absolute;
+
+    }
+    .text4{
+        top: 3100px;
+        left: 900px;
+        position: absolute;
+ 
+    }
+    .footer2{
+        background-color: #232f3e;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute
+      ;
+        
+    }  
+    
+    .boot{
+        position: absolute;
+        left: 650px;
+       
+        border: 1px solid rgb(129, 129, 129);
+        border-radius: 4px;
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+    }
+    .boot2{
+        position: absolute;
+        left: 810px;
+        
+        border: 1px solid rgb(129, 129, 129);
+        border-radius: 4px;
+        width: 130px;
+        height: 30px;
+        display: flex;
+    
+        color: white;
+        align-items: center;
+    }
+    
+   .end{
+    background-color: #131A22;
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+
+   }
+   .en2{
+    position: absolute;
+    top: 3000;
+    left: 150px;
+   }
+    
+    
